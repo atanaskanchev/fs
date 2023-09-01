@@ -1,7 +1,7 @@
 import { defaultTheme, styled } from "@fast-styles/react";
 import { View } from "react-native";
 
-const StyledView = styled(View, {
+export const StyledView = styled(View, {
   flex: 1,
   justifyContent: "center",
   alignItems: "center",
@@ -17,5 +17,3 @@ const StyledView = styled(View, {
     },
   },
 });
-
-export default StyledView;

@@ -1,7 +1,7 @@
 import { ModeProvider, useMode } from "@fast-styles/react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import StyledView from "./StyledView";
+import { StyledView } from "./StyledView";
 
 export default function App() {
   const [mode] = useMode();
